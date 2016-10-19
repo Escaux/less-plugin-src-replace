@@ -1,11 +1,11 @@
 {
-  "name": "less-src-replace",
-  "version": "1.6.4",
-  "description": "LESS plugin to copy all src files into one flatten structure.",
+  "name": "less-plugin-src-replace",
+  "version": "0.1.0",
+  "description": "This is a fork of less-src-replace but using it as lessc plugin.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/miloszsobczak/less-src-replace"
+    "url": "https://github.com/escaux/less-plugin-src-replace"
   },
   "dependencies": {
     "mkdirp": "0.5.1",
@@ -29,6 +29,6 @@
     "static",
     "static files"
   ],
-  "author": "Miłosz Sobczak <miloszsobczak@pixers.pl>",
+  "author": "Escaux <dev-team@escaux.com>",
   "license": "BSD"
 }
