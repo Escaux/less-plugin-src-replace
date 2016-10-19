@@ -10,7 +10,7 @@ LessSrcReplace.prototype = {
         pluginManager.addVisitor(new SrcVisitor(this.options));
     },
     setOptions: function(options) {
-        this.options = JSON.parce(options) || {};
+        this.options = JSON.parse(options) || {};
     }
 };
 
